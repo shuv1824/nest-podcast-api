@@ -1,6 +1,6 @@
 import { Controller, Query, Param, Get, Post, Body } from '@nestjs/common';
 import { EpisodesService } from './episodes.service';
-import { ConfigService } from 'src/config/config.service';
+import { ConfigService } from '../config/config.service';
 
 @Controller('episodes')
 export class EpisodesController {
